@@ -1,3 +1,13 @@
+/**
+ * espower-location-detector:
+ *   AST source location detection helper for power-assert
+ * 
+ * https://github.com/twada/espower-location-detector
+ *
+ * Copyright (c) 2015 Takuto Wada
+ * Licensed under the MIT license.
+ *   https://github.com/twada/espower-location-detector/blob/master/MIT-LICENSE.txt
+ */
 'use strict';
 
 var PositionDetector = require('./lib/position-detector');
