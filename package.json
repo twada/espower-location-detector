@@ -26,7 +26,8 @@
     "CHANGELOG.md",
     "MIT-LICENSE.txt",
     "README.md",
-    "index.js"
+    "index.js",
+    "lib"
   ],
   "homepage": "https://github.com/twada/espower-location-detector",
   "keywords": [
