@@ -1,6 +1,6 @@
 {
   "name": "espower-location-detector",
-  "description": "source location detection for power-assert",
+  "description": "AST source location detection helper for power-assert",
   "version": "0.0.1",
   "author": {
     "name": "Takuto Wada",
@@ -22,7 +22,11 @@
     "mocha": "^2.3.3"
   },
   "homepage": "https://github.com/twada/espower-location-detector",
-  "keywords": [],
+  "keywords": [
+    "ast",
+    "estree",
+    "sourcemaps"
+  ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
