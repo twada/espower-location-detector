@@ -12,7 +12,7 @@ AST source location detection helper for power-assert
 DESCRIPTION
 ---------------------------------------
 
-`espower-location-detector` is a AST source location detection helper for [power-assert](http://github.com/power-assert-js/power-assert), intended to be used by [espower](https://github.com/power-assert-js/espower) and [babel-plugin-espower](https://github.com/power-assert-js/babel-plugin-espower).
+`espower-location-detector` is a AST source location detection helper for [power-assert](https://github.com/power-assert-js/power-assert), intended to be used by [espower](https://github.com/power-assert-js/espower) and [babel-plugin-espower](https://github.com/power-assert-js/babel-plugin-espower).
 
 
 INSTALL
@@ -25,7 +25,7 @@ $ npm install espower-location-detector
 
 AUTHOR
 ---------------------------------------
-* [Takuto Wada](http://github.com/twada)
+* [Takuto Wada](https://github.com/twada)
 
 
 LICENSE
@@ -35,7 +35,7 @@ Licensed under the [MIT](https://github.com/twada/espower-location-detector/blob
 [npm-url]: https://npmjs.org/package/espower-location-detector
 [npm-image]: https://badge.fury.io/js/espower-location-detector.svg
 
-[travis-url]: http://travis-ci.org/twada/espower-location-detector
+[travis-url]: https://travis-ci.org/twada/espower-location-detector
 [travis-image]: https://secure.travis-ci.org/twada/espower-location-detector.svg?branch=master
 
 [depstat-url]: https://gemnasium.com/twada/espower-location-detector
