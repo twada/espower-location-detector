@@ -208,3 +208,55 @@ describe('sourceRoot option', function () {
     });
 });
 
+
+it('when incoming SourceMap is empty (like gulp-sourcemaps produces initially)', function () {
+    var originalCode = [
+        'var str = "foo";',
+        'var anotherStr = "bar";',
+        '',
+        'assert.equal(',
+        '    str,',
+        '    anotherStr',
+        ');'
+    ].join('\n');
+
+    var incomingSourceMap = {
+        version: 3,
+        names: [],
+        mappings: "",
+        sources:[
+            "js_array_test.js"
+        ],
+        sourcesContent: [
+            originalCode
+        ],
+        file: "js_array_test.js"
+    };
+
+    var intermediateFilepath = '/path/to/absolute/intermediate/transformed_test.js';
+    var ast = acorn.parse(originalCode, {ecmaVersion: 6, locations: true, sourceFile: 'js_array_test'});
+
+    var matcher = escallmatch('assert.equal(actual, expected, [message])');
+    var callexp;
+    estraverse.traverse(ast, {
+        enter: function (currentNode) {
+            if (matcher.test(currentNode)) {
+                callexp = currentNode;
+                return this.break();
+            }
+            return undefined;
+        }
+    });
+
+    var detector = new EspowerLocationDetector({
+        path: 'js_array_test',
+        sourceRoot: 'test/web',
+        sourceMap: incomingSourceMap
+    });
+    var result = detector.locationFor(callexp);
+    assert.deepEqual(result, {
+        source: 'js_array_test',
+        line: 4,
+        column: 0
+    });
+});
