@@ -1,3 +1,11 @@
+### [0.1.2](https://github.com/twada/espower-location-detector/releases/tag/v0.1.2) (2016-02-10)
+
+
+#### Bug Fixes
+
+  * dealing with incoming empty SourceMap ([6f45640f](https://github.com/twada/espower-location-detector/commit/6f45640fbf4db23e327b087df8671f3d9203fb09))
+
+
 ### [0.1.1](https://github.com/twada/espower-location-detector/releases/tag/v0.1.1) (2015-12-31)
 
 
