@@ -38,7 +38,7 @@ NOTE: If espower-location-detector works in any of the unsupported environments,
 
 LICENSE
 ---------------------------------------
-Licensed under the [MIT](https://github.com/twada/espower-location-detector/blob/master/MIT-LICENSE.txt) license.
+Licensed under the [MIT](https://github.com/twada/espower-location-detector/blob/master/LICENSE) license.
 
 [npm-url]: https://npmjs.org/package/espower-location-detector
 [npm-image]: https://badge.fury.io/js/espower-location-detector.svg
@@ -49,5 +49,5 @@ Licensed under the [MIT](https://github.com/twada/espower-location-detector/blob
 [depstat-url]: https://gemnasium.com/twada/espower-location-detector
 [depstat-image]: https://gemnasium.com/twada/espower-location-detector.svg
 
-[license-url]: https://github.com/twada/espower-location-detector/blob/master/MIT-LICENSE.txt
+[license-url]: https://github.com/twada/espower-location-detector/blob/master/LICENSE
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg
