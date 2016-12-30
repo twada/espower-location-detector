@@ -28,6 +28,14 @@ AUTHOR
 * [Takuto Wada](https://github.com/twada)
 
 
+SUPPORT POLICY
+---------------------------------------
+
+[Node under maintenance](https://github.com/nodejs/LTS) is supported.
+
+NOTE: If espower-location-detector works in any of the unsupported environments, it is purely coincidental and has no bearing on future compatibility. Use at your own risk.
+
+
 LICENSE
 ---------------------------------------
 Licensed under the [MIT](https://github.com/twada/espower-location-detector/blob/master/MIT-LICENSE.txt) license.
