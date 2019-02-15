@@ -1,3 +1,16 @@
+## [2.0.0](https://github.com/twada/espower-location-detector/releases/tag/v2.0.0) (2019-02-15)
+
+
+#### Features
+
+* [Modernize Codebase to ES2015+](https://github.com/twada/espower-location-detector/pull/1)
+
+
+#### Breaking Changes
+
+* Old Node versions and browsers are not supported.
+
+
 ## [1.0.0](https://github.com/twada/espower-location-detector/releases/tag/v1.0.0) (2016-12-31)
 
 
