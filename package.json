@@ -10,7 +10,6 @@
   "bugs": "https://github.com/twada/espower-location-detector/issues",
   "dependencies": {
     "is-url": "^1.2.1",
-    "path-is-absolute": "^1.0.0",
     "source-map": "^0.5.0",
     "xtend": "^4.0.0"
   },
