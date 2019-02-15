@@ -41,8 +41,8 @@
     "url": "git://github.com/twada/espower-location-detector.git"
   },
   "scripts": {
-    "lint": "semistandard --verbose index.js lib/*.js | snazzy",
-    "fmt": "semistandard --fix index.js lib/*.js",
+    "lint": "semistandard --verbose index.js lib/*.js test/*.js | snazzy",
+    "fmt": "semistandard --fix index.js lib/*.js test/*.js",
     "test": "npm run lint && mocha test"
   },
   "semistandard": {
