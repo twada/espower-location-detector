@@ -5,7 +5,7 @@ AST source location detection helper for power-assert
 
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
-[![Dependency Status][depstat-image]][depstat-url]
+[![Code Style][style-image]][style-url]
 [![License][license-image]][license-url]
 
 
@@ -46,8 +46,8 @@ Licensed under the [MIT](https://github.com/twada/espower-location-detector/blob
 [travis-url]: https://travis-ci.org/twada/espower-location-detector
 [travis-image]: https://secure.travis-ci.org/twada/espower-location-detector.svg?branch=master
 
-[depstat-url]: https://gemnasium.com/twada/espower-location-detector
-[depstat-image]: https://gemnasium.com/twada/espower-location-detector.svg
+[style-url]: https://github.com/Flet/semistandard
+[style-image]: https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg
 
 [license-url]: https://github.com/twada/espower-location-detector/blob/master/LICENSE
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg
