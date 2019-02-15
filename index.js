@@ -4,7 +4,7 @@
  *
  * https://github.com/twada/espower-location-detector
  *
- * Copyright (c) 2015-2016 Takuto Wada
+ * Copyright (c) 2015-2019 Takuto Wada
  * Licensed under the MIT license.
  *   https://github.com/twada/espower-location-detector/blob/master/LICENSE
  */
