@@ -19,8 +19,9 @@
     "escallmatch": "^1.5.0",
     "escodegen": "^1.8.1",
     "estraverse": "^4.2.0",
-    "jshint": "^2.9.3",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "semistandard": "^13.0.1",
+    "snazzy": "^8.0.0"
   },
   "files": [
     "CHANGELOG.md",
@@ -42,7 +43,20 @@
     "url": "git://github.com/twada/espower-location-detector.git"
   },
   "scripts": {
-    "lint": "jshint index.js lib",
+    "lint": "semistandard --verbose index.js lib/*.js | snazzy",
+    "fmt": "semistandard --fix index.js lib/*.js",
     "test": "npm run lint && mocha test"
+  },
+  "semistandard": {
+    "ignore": [
+      "/build/",
+      "/bench/",
+      "**/*.jsx"
+    ],
+    "globals": [
+      "describe",
+      "beforeEach",
+      "it"
+    ]
   }
 }
